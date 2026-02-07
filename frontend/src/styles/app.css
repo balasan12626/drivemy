@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f8fc;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.breadcrumbs button,
+.toolbar button,
+.file-table button {
+  background: #1a73e8;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.file-table th,
+.file-table td {
+  border-bottom: 1px solid #eceff3;
+  padding: 12px;
+  text-align: left;
+}
+
+.progress-wrap {
+  height: 10px;
+  width: 100%;
+  background: #e4e7ed;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #16a34a;
+}
